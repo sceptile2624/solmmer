@@ -1,0 +1,195 @@
+	
+@media (max-width: 767px) {
+	
+.menu2 {
+    display: block;
+	opacity:1;
+background-color: #8F8974;	
+}
+
+.menu1 {
+    display: none;
+	opacity:0;
+}
+	
+.btninsta a {
+		color: white;
+	}
+
+
+.navbar-collapse {
+    overflow: hidden;
+    width: 120%;
+    background-color: #252627;
+    margin-left: -35px;
+    margin-top: 11px;
+    padding-bottom: 15px;
+}
+
+.navbarl {
+	float:left;
+	width: 100%;
+}
+
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+margin-left: -25px;
+}
+
+
+.navbarl > li > a {
+    padding-top: 18px;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 30px;
+    height: 2px;
+    border-radius: 1px solid black;
+    border: solid 1px;
+}
+
+.navbarl > li >  .active {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    background:none;
+padding-top: 18px;
+}
+
+.navbar-toggle{
+    margin-top: 30px;
+}
+
+.navbar-nav {
+    margin: 0px -15px;
+}
+
+.icon-bar{
+    margin-bottom: 8px;
+}
+
+.tel{
+    font-size: 13px;
+}
+.intro{
+    
+
+}
+
+.copyheader {
+    font-size: 37px;
+}
+
+.copyback {
+    filter: blur(33px);
+}
+
+.nopaddingxs {
+	padding:0;
+}
+
+.brandm2{
+    margin-left: 85px;
+}
+
+.nwhats {
+    float: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    background-color: #564e58;
+    width: 101%;
+}
+
+.nwhats a{
+     color: #8f8974;
+}
+
+.redesr{
+    text-align: center;
+
+}
+
+.redesr a{
+    padding: 0 24px;
+}
+
+
+
+.copyheader{
+    font-size: 18px;
+}
+
+.pos{
+    margin-top: 40px;
+}
+
+#nosotros {
+	height:auto;
+}
+
+.padding {
+    padding-bottom: 30px;
+}
+
+.flecha {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 70%;
+}
+
+#galeria .flecha, #galeria2 .flecha {
+
+    top: 48%;
+}
+
+
+
+#llamanos {
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#catalog {
+    height: 270px
+}
+
+.instat{
+    height: 160px;
+}
+
+.copysus {
+    font-size: 18px;
+    text-align: center;
+}
+
+.copygaleria{
+    margin-top: 40px;
+}
+
+#fllamanos{
+    margin-bottom: 45px;
+}
+
+#fprivacidad{
+    margin-bottom: 45px;
+}
+
+#fsocial{
+    margin-bottom: 45px;
+}
+	
+.copycenter {
+    position: absolute;
+    margin: 0;
+    color: #000000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 340px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+}
+

@@ -1,0 +1,153 @@
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+/*
+ * 	Default theme - Owl Carousel CSS File
+ */
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; }
+  .owl-theme .owl-nav [class*='owl-'] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px; }
+    .owl-theme .owl-nav [class*='owl-']:hover {
+      background: #869791;
+      color: #FFF;
+      text-decoration: none; }
+  .owl-theme .owl-nav .disabled {
+    opacity: 0.5;
+    cursor: default; }
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 10px; }
+
+.owl-theme .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; }
+  .owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    *display: inline; }
+    .owl-theme .owl-dots .owl-dot span {
+      width: 5px;
+      height: 5px;
+      margin: 5px 7px;
+      background: white;
+	  border:1px solid #252627;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 50%; }
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+      background: #252627; }
+
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    top: 110px;
+    width: 100%;
+}
+
+.am-next {
+    color: green;
+    left: 0px;
+    background-color: transparent;
+    top: 0;
+    width: 38px;
+    height: 38px;
+    background-image: url(../img/Svg/bamobel_carpinteria_slider_left_arrow.svg);
+    position: absolute;
+    border: none;
+}
+
+.am-prev {
+    color: green;
+    right: 0px;
+    background-color: transparent;
+    top: 0;
+    width: 38px;
+    height: 38px;
+    background-image: url(../img/Svg/bamobel_carpinteria_slider_right_arrow.svg);
+    position: absolute;
+    border: none;
+}
+
+.am-next2 {
+    color: green;
+    left: 0px;
+    background-color: transparent;
+    top: 0;
+    width: 38px;
+    height: 38px;
+    background-image: url(../img/Svg/bamobel_carpinteria_slider_left_arrow.svg);
+    position: absolute;
+    border: none;
+}
+
+.am-prev2 {
+    color: green;
+    right: 0px;
+    background-color: transparent;
+    top: 0;
+    width: 38px;
+    height: 38px;
+    background-image: url(../img/Svg/bamobel_carpinteria_slider_right_arrow.svg);
+    position: absolute;
+    border: none;
+}
+
+.am-nextser {
+    left: 0px;
+    background-color: transparent;
+    top: 0;
+    width: 38px;
+    height: 38px;
+    background-image: url(../img/Svg/bamobel_carpinteria_slider_left_arrow.svg);
+    position: absolute;
+    border: none;
+}
+
+.am-prevser {
+    right: 0px;
+    background-color: transparent;
+    top: 0;
+    width: 38px;
+    height: 38px;
+    background-image: url(../img/Svg/bamobel_carpinteria_slider_right_arrow.svg);
+    position: absolute;
+    border: none;
+}
+
+.am-nextser:hover {
+    background-image: url(../img/Svg/bamobel_carpinteria_slider_left_arrow_hover.svg);
+}
+.am-prevser:hover {
+    background-image: url(../img/Svg/bamobel_carpinteria_slider_right_arrow:hover.svg);
+}
+
+.am-next:hover {
+    background-image: url(../img/Svg/bamobel_carpinteria_slider_left_arrow.svg);
+}
+
+.am-prev:hover {
+    background-image: url(../img/Svg/bamobel_carpinteria_slider_right_arrow.svg);
+}
+
+.am-next2:hover {
+    background-image: url(../img/Svg/bamobel_carpinteria_slider_left_arrow.svg);
+}
+
+.am-prev2:hover {
+    background-image: url(../img/Svg/bamobel_carpinteria_slider_right_arrow.svg);
+}
