@@ -8,7 +8,7 @@ session_start();
 // Tus credenciales
 $clientId = '85552810135-5jjiooo902r0p3qc679fedgkjvsdo853.apps.googleusercontent.com';
 $clientSecret = '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';
-$redirectUri = 'http://localhost/get_oauth_token.php'; // debe coincidir con lo configurado en Google Console
+$redirectUri = 'get_oauth_token.php'; // debe coincidir con lo configurado en Google Console
 
 $provider = new Google([
     'clientId'     => $clientId,
